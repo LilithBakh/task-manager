@@ -1,0 +1,28 @@
+$primary-color: #670F39;
+$secondery-color:#BFC401;
+$placeholder-color: #818511;
+
+input {
+    width: 400px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    color: $primary-color;
+    background-color: $secondery-color;
+    font-weight: 700;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: $placeholder-color;
+        font-weight: 500;
+    }
+}
+
+button {
+    height: 30px;
+    padding: 10px;
+}
